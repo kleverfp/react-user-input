@@ -1,4 +1,5 @@
-import Card from '../UI/Card';
+import Button from '../UI/Button/Button';
+import Card from '../UI/Card/Card';
 import classes from './UserFormInput.module.css'
 
 const UserFormInput = () =>{
@@ -11,6 +12,7 @@ const UserFormInput = () =>{
                 <input/>
                 <label>age:</label>
                 <input/>
+                <Button type="submit">Add User</Button>
             </form>
        </Card>
        
